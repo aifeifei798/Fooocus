@@ -1,0 +1,107 @@
+{
+    "default_model": "fv3-g4.2-vae.fp16.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.8,
+    "default_loras_min_weight": -2,
+    "default_loras_max_weight": 2,
+    "default_loras": [
+        [
+            true,
+            "2-Fixhands-unfilteredai.safetensors",
+            1
+        ],
+        [
+            true,
+            "1-EyesDetailedEyes_V3.safetensors",
+            1
+        ],
+        [
+            true,
+            "WildcardX-XL-Detail-Enhancer.safetensors",
+            1
+        ],
+        [
+            true,
+            "High-Colors-details.safetensors",
+            1
+        ],
+        [
+            true,
+            "flash-sdxl-pytorch_lora_weights.safetensors",
+            1
+        ],	
+        [
+            true,
+            "3-InstantPhotoX3.safetensors",
+            1
+        ],	
+        [
+            true,
+            "feifei-xl.safetensors",
+            0.125
+        ],
+        [
+            true,
+            "Hyper-SDXL-8steps-lora.safetensors",
+            0.3
+        ]
+    ],
+	"default_max_lora_number": 9,
+    "default_cfg_scale": 1.0,
+    "default_sample_sharpness": 20,
+    "default_overwrite_step": 19,
+    "default_sampler": "dpmpp_3m_sde_gpu",
+    "default_scheduler": "sgm_uniform",
+    "default_styles": [
+        "Fooocus V2",
+		"Fei Quality Standard V3.1",
+		"Feifei 3840 X 2160",
+        "Nvidia Rtx 4090"
+    ],
+	
+    "default_prompt_negative": "watermark,text,",
+    "default_prompt": "A detailed real photo, A beautiful jpop 18 yo Whispery cutesy little girl,Slim figure with Gigantic breasts, look at viewer, ",
+    "default_performance": "Speed",
+    "default_advanced_checkbox": true,
+    "default_max_image_number": 320,
+    "default_output_format": "png",
+    "default_image_number": 2,
+	"available_aspect_ratios": [
+		"576*1728",
+        "704*1408",
+        "704*1344",
+        "768*1344",
+        "768*1280",
+        "832*1216",
+        "832*1152",
+        "896*1152",
+        "896*1088",
+        "960*1088",
+        "960*1024",
+        "1024*1024",
+        "1024*960",
+        "1088*960",
+        "1088*896",
+        "1152*896",
+        "1152*832",
+        "1216*832",
+        "1280*768",
+        "1344*768",
+        "1344*704",
+        "1408*704",
+        "1472*704",
+        "1536*640",
+        "1600*640",
+        "1664*576",
+        "1728*576"
+    ],
+    "default_aspect_ratio": "896*1152",
+	"example_inpaint_prompts": [
+        "highly detailed face",
+        "jpop,Infectious smile,highly detailed face",
+		"detailed girl face",
+        "detailed man face",
+        "detailed hand",
+        "beautiful eyes"
+    ]
+}

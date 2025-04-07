@@ -1,0 +1,58 @@
+{
+    "default_model": "fv3-g4.2-vae.fp16.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            true,
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors",
+            0.25
+        ],
+        [
+            true,
+            "High-Colors-details.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "1-EyesDetailedEyes_V3.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "detailed_hands-000002.safetensors",
+            1.0
+        ],
+        [
+            true,
+            "3-InstantPhotoX3.safetensors",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 3.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_3m_sde_gpu",
+    "default_scheduler": "sgm_uniform",
+    "default_performance": "Hyper-SD",
+	"default_advanced_checkbox": true,
+    "default_max_image_number": 320,
+    "default_output_format": "png",
+    "default_image_number": 1,
+    "default_prompt": "smile, full body, close-up face, sexy 18 yo Kpop Real model girl in real, look at camera,",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative"
+    ],
+    "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
+    "checkpoint_downloads": {
+        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors": "https://huggingface.co/mashb1t/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_V1.safetensors"
+    },
+    "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
+}
